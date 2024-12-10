@@ -1,0 +1,15 @@
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\bin\Debug\net8.0\Exercise04.exe
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\bin\Debug\net8.0\Exercise04.deps.json
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\bin\Debug\net8.0\Exercise04.runtimeconfig.json
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\bin\Debug\net8.0\Exercise04.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\bin\Debug\net8.0\Exercise04.pdb
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\obj\Debug\net8.0\Exercise04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\obj\Debug\net8.0\Exercise04.AssemblyInfoInputs.cache
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\obj\Debug\net8.0\Exercise04.AssemblyInfo.cs
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\obj\Debug\net8.0\Exercise04.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\obj\Debug\net8.0\Exercise04.sourcelink.json
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\obj\Debug\net8.0\Exercise04.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\obj\Debug\net8.0\refint\Exercise04.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\obj\Debug\net8.0\Exercise04.pdb
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\obj\Debug\net8.0\Exercise04.genruntimeconfig.cache
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise04\obj\Debug\net8.0\ref\Exercise04.dll
