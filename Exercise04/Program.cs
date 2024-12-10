@@ -1,5 +1,5 @@
 ﻿var ToDoList = new List<string>();
-var condition = true;
+var condition = true; // condition for the loop
 
 Console.WriteLine("Welcome to the To Do List program");
 
@@ -12,7 +12,7 @@ while(condition)
 
     switch (option)
     {
-        case "1":
+        case "1": // The user add the tasks
         {
             Console.WriteLine("Please enter the name of the task to add to the list.");
             var task = Console.ReadLine()!;
@@ -20,7 +20,7 @@ while(condition)
             Console.WriteLine("Task added to the list.  ");
             continue;
         }
-        case "2":
+        case "2": // The user remove the task by typing in the task number
         {
             Console.WriteLine("Please enter the number of the task that you want to remove: ");
             var numberTask = Convert.ToInt32(Console.ReadLine());
@@ -29,7 +29,7 @@ while(condition)
 
             continue;
         }
-        case "3":
+        case "3": //It shows the current list
         {
             Console.WriteLine("Current tasks in the list: ");
             
@@ -39,7 +39,7 @@ while(condition)
             }
             continue;
         }
-        case "e":
+        case "e": // It stops the program
         {
             Console.Clear();
             Console.WriteLine("Thanks for using the program.");
