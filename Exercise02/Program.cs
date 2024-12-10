@@ -37,7 +37,7 @@ while (true)
 Console.ForegroundColor = ConsoleColor.White; //It returns the text color to white
 Console.Write("The list you have created is [ ");
 
-numbers.Sort();
+numbers.Sort(); // It will order the list
 
 foreach(var number in numbers)
 {
