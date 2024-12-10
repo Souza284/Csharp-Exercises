@@ -35,7 +35,7 @@ else
 
 numbers.Reverse();
 
-Console.WriteLine($"Your reversed list is ");
+Console.WriteLine($"Your inverted list is ");
 
 for (var i = 0; i < numbers.Count; i++)
 {
