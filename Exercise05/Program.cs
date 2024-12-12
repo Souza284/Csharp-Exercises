@@ -1,6 +1,4 @@
-﻿using System.Formats.Asn1;
-
-Console.WriteLine("Enter the height: ");
+﻿Console.WriteLine("Enter the height: ");
 var height = Convert.ToDecimal(Console.ReadLine());
 
 Console.WriteLine("Enter the width: ");
