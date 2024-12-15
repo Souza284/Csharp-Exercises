@@ -56,7 +56,7 @@
             Console.WriteLine($"{player.namePlayer} HP: {player.lifePlayer}\n{enemy.nameEnemy} HP: {enemy.lifeEnemy}");
             Console.WriteLine("---------------");
 
-            Console.WriteLine(enemy.nameEnemy + "turn!");
+            Console.WriteLine(enemy.nameEnemy + " turn!");
 
             var rndE = new Random();
             var A = rndE.Next(1, 31);
