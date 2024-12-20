@@ -30,7 +30,7 @@
             if (playPlayer == "a")
             {
                 var rnd = new Random();
-                int a = rnd.Next(1, 31);
+                int a = rnd.Next(1, 26);
 
                 enemy.lifeEnemy -= a;
 
@@ -41,7 +41,7 @@
                 if (player.lifePlayer <= 100)
                 {
                     var rndP = new Random();
-                    int h = rndP.Next(1, 10);
+                    int h = rndP.Next(1, 21);
 
                     player.healPlayer = h;
                     player.lifePlayer += h;
@@ -59,7 +59,7 @@
             Console.WriteLine(enemy.nameEnemy + " turn!");
 
             var rndE = new Random();
-            var A = rndE.Next(1, 31);
+            var A = rndE.Next(1, 26);lol
 
             player.lifePlayer -= A;
 

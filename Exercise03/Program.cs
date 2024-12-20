@@ -39,6 +39,6 @@ Console.WriteLine($"Your inverted list is ");
 
 for (var i = 0; i < numbers.Count; i++)
 {
-    Console.Write(numbers[i]);
+    Console.Write(numbers[i] + " ");
 }
 
