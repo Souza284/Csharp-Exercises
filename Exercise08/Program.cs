@@ -59,7 +59,7 @@
             Console.WriteLine(enemy.nameEnemy + " turn!");
 
             var rndE = new Random();
-            var A = rndE.Next(1, 26);lol
+            var A = rndE.Next(1, 26);
 
             player.lifePlayer -= A;
 

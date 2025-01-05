@@ -33,3 +33,4 @@ for (var i = 0; i < numbers.Count; i++)
         Console.Write(i + "..");
     }
 }
+
