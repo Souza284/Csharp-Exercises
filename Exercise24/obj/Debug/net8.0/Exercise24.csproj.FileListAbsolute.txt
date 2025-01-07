@@ -1,0 +1,15 @@
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\bin\Debug\net8.0\Exercise24.exe
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\bin\Debug\net8.0\Exercise24.deps.json
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\bin\Debug\net8.0\Exercise24.runtimeconfig.json
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\bin\Debug\net8.0\Exercise24.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\bin\Debug\net8.0\Exercise24.pdb
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\obj\Debug\net8.0\Exercise24.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\obj\Debug\net8.0\Exercise24.AssemblyInfoInputs.cache
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\obj\Debug\net8.0\Exercise24.AssemblyInfo.cs
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\obj\Debug\net8.0\Exercise24.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\obj\Debug\net8.0\Exercise24.sourcelink.json
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\obj\Debug\net8.0\Exercise24.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\obj\Debug\net8.0\refint\Exercise24.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\obj\Debug\net8.0\Exercise24.pdb
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\obj\Debug\net8.0\Exercise24.genruntimeconfig.cache
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise24\obj\Debug\net8.0\ref\Exercise24.dll
