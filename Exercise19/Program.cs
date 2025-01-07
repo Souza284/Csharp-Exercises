@@ -7,6 +7,6 @@ foreach(var number in squareNumbers)
     Console.WriteLine(number);
 }*/
 
-/*var squareNumbers = from int number in numbers
-                    let squareNumbers = number * number
-                    select new {number, squareNumbers};*/
+var squareNumbers = from int number in numbers
+                    let _squareNumbers = number * number
+                    select new {number, _squareNumbers};
