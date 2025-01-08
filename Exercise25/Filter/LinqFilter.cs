@@ -27,9 +27,5 @@ namespace Exercise25.Filter
                 Console.WriteLine(country.Key + " - " + country.Value);
             }
         }
-        /*public static void DisplayCountryData(List<Country> countries)
-        {
-            var brasil = countries.Where(c => c.Name == "Brasil");
-        }*/
     }
 }

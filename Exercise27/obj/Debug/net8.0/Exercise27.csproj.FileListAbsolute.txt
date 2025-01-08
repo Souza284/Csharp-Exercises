@@ -1,0 +1,15 @@
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\bin\Debug\net8.0\Exercise27.exe
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\bin\Debug\net8.0\Exercise27.deps.json
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\bin\Debug\net8.0\Exercise27.runtimeconfig.json
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\bin\Debug\net8.0\Exercise27.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\bin\Debug\net8.0\Exercise27.pdb
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\obj\Debug\net8.0\Exercise27.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\obj\Debug\net8.0\Exercise27.AssemblyInfoInputs.cache
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\obj\Debug\net8.0\Exercise27.AssemblyInfo.cs
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\obj\Debug\net8.0\Exercise27.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\obj\Debug\net8.0\Exercise27.sourcelink.json
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\obj\Debug\net8.0\Exercise27.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\obj\Debug\net8.0\refint\Exercise27.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\obj\Debug\net8.0\Exercise27.pdb
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\obj\Debug\net8.0\Exercise27.genruntimeconfig.cache
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise27\obj\Debug\net8.0\ref\Exercise27.dll
