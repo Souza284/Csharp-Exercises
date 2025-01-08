@@ -10,5 +10,6 @@ using (HttpClient client = new())
 
     var countries = JsonSerializer.Deserialize<List<Country>>(apiCountry)!;
     //LinqFilter.CountryNameFilter(countries);
-    LinqFilter.CountryNamePopulationFilter(countries);
+    //LinqFilter.CountryNamePopulationFilter(countries);
+    //LinqFilter.DisplayCountryData(countries);
 }
