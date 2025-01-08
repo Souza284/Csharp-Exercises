@@ -1,1 +1,1 @@
-{"pokemons":[{"name":"Blastoise","Type":"Water","Sex":"Male","PokemonTrainer":null},{"name":"Charizard","Type":"Fire","Sex":"Female","PokemonTrainer":null},{"name":"Venosaur","Type":"Plant","Sex":"Male","PokemonTrainer":null},{"name":"Totodile","Type":"Water","Sex":"Female","PokemonTrainer":null}]}
+{"pokemons":[{"Name":"Blastoise","Type":"Water","Sex":"Male"},{"Name":"Charizard","Type":"Fire","Sex":"Female"},{"Name":"Venosaur","Type":"Plant","Sex":"Male"},{"Name":"Totodile","Type":"Water","Sex":"Female"}]}

@@ -5,11 +5,11 @@ namespace Exercise28.Models
 {
     internal class Pokemon
     {
-        [JsonPropertyName("name")]
         public string? Name { get; set; }
         public string? Type { get; set; }
         public string? Sex { get; set; }
         public static List<Pokemon> Pokemons = new();
+        [JsonIgnore]
         public string? PokemonTrainer { get; set; }
 
         public Pokemon(string? pokemonTrainer)
