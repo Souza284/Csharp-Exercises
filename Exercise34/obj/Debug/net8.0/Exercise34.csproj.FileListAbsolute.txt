@@ -1,0 +1,15 @@
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\bin\Debug\net8.0\Exercise34.exe
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\bin\Debug\net8.0\Exercise34.deps.json
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\bin\Debug\net8.0\Exercise34.runtimeconfig.json
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\bin\Debug\net8.0\Exercise34.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\bin\Debug\net8.0\Exercise34.pdb
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\obj\Debug\net8.0\Exercise34.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\obj\Debug\net8.0\Exercise34.AssemblyInfoInputs.cache
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\obj\Debug\net8.0\Exercise34.AssemblyInfo.cs
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\obj\Debug\net8.0\Exercise34.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\obj\Debug\net8.0\Exercise34.sourcelink.json
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\obj\Debug\net8.0\Exercise34.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\obj\Debug\net8.0\refint\Exercise34.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\obj\Debug\net8.0\Exercise34.pdb
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\obj\Debug\net8.0\Exercise34.genruntimeconfig.cache
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise34\obj\Debug\net8.0\ref\Exercise34.dll
