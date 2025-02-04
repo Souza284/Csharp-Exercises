@@ -18,6 +18,11 @@
 
                 Console.WriteLine(readBytes);
             }
+
+            /*File.WriteAllText(fileAddress, "My name is Pedro");
+
+            var fileBytes = File.ReadAllBytes(fileAddress);
+            Console.WriteLine(fileBytes);*/
             
         }
     }
