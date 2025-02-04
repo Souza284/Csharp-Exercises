@@ -1,0 +1,3 @@
+False
+Pedro/18/Student
+90,2
