@@ -13,7 +13,7 @@
         using (var fileStream = new FileStream(fileAddress, FileMode.Create))
         using (var writer = new BinaryWriter(fileStream))
         {
-            writer.Write("Pedro");
+            writer.Write("Pedro Souza");
             writer.Write(18);
         }
     }
