@@ -30,7 +30,7 @@ namespace Exercise37.GetEndPoint
 
             HttpResponseMessage httpResponseMessage = httpResponse.Result;
 
-            Console.WriteLine(httpResponse.ToString());
+            Console.WriteLine(httpResponseMessage.ToString());
 
             httpClient.Dispose();
         }
