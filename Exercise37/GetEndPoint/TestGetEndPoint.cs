@@ -65,5 +65,41 @@ namespace Exercise37.GetEndPoint
 
             httpClient.Dispose();
         }
+
+        public static void TestGetEndPointUsingSendAsync()
+        {
+            HttpRequestMessage httpRequestMessage = new();
+            httpRequestMessage.RequestUri = new Uri(getUrl);
+            httpRequestMessage.Method = HttpMethod.Get;
+            httpRequestMessage.Headers.Add("Accept", "application/json");
+
+            HttpClient httpClient = new();
+            Task<HttpResponseMessage> httpResponseMessage = httpClient.SendAsync(httpRequestMessage);
+
+
+            HttpResponseMessage httpResponseMessage1 = httpResponseMessage.Result;
+
+
+            HttpStatusCode httpStatusCode = httpResponseMessage1.StatusCode;
+
+            HttpContent httpContent = httpResponseMessage1.Content;
+            Task<string> responseData = httpContent.ReadAsStringAsync();
+            string data = responseData.Result;
+
+            httpClient.Dispose();
+        }
+
+        public static void TestUsingStatement()
+        {
+            using(HttpClient httpClient = new())
+            {
+                using(HttpRequestMessage httpRequestMessage = new())
+                {
+                    httpRequestMessage.RequestUri = new Uri(getUrl);
+                    httpRequestMessage.Method = HttpMethod.Get;
+                    httpRequestMessage.Headers.Add("Accept", "application/json");
+                }
+            }
+        }
     }
 }
