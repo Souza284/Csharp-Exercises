@@ -3,5 +3,5 @@ using Exercise37.GetEndPoint;
 
 //TestGetEndPoint.TestGetAllEndPoint();
 //TestGetEndPoint.TestGetAllEndPointWithUri();
-
-TestGetEndPoint.TestUsingStatement();
+//TestGetEndPoint.TestUsingStatement();
+TestGetEndPoint.TestDeserilizationJsonResponse();

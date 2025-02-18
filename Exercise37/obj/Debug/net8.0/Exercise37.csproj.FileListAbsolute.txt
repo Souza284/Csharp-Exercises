@@ -13,3 +13,7 @@ C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise37\obj\Debug\net8.0\r
 C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise37\obj\Debug\net8.0\Exercise37.pdb
 C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise37\obj\Debug\net8.0\Exercise37.genruntimeconfig.cache
 C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise37\obj\Debug\net8.0\ref\Exercise37.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise37\bin\Debug\net8.0\Json.Net.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise37\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise37\obj\Debug\net8.0\Exercise37.csproj.AssemblyReference.cache
+C:\Users\Pedro\Documents\MyProjects\Csharp-journey\Exercise37\obj\Debug\net8.0\Exercise37.csproj.Up2Date

@@ -5,6 +5,8 @@ using System.Net;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Exercise37.Model;
+using Exercise37.Model.JsonModel;
+using Newtonsoft.Json;
 
 namespace Exercise37.GetEndPoint
 {
@@ -112,6 +114,38 @@ namespace Exercise37.GetEndPoint
 
                         RestResponse restResponse = new((int)httpStatusCode, data);
                         Console.WriteLine(restResponse.ToString());
+                    }
+                }
+            }
+        }
+
+        public static void TestDeserilizationJsonResponse()
+        {
+            using(HttpClient httpClient = new())
+            {
+                using(HttpRequestMessage httpRequestMessage = new())
+                {
+                    httpRequestMessage.RequestUri = new Uri(getUrl);
+                    httpRequestMessage.Method = HttpMethod.Get;
+                    httpRequestMessage.Headers.Add("Accept", "application/json");
+
+                    Task<HttpResponseMessage> httpResponse = httpClient.SendAsync(httpRequestMessage);
+
+                    using(HttpResponseMessage httpResponseMessage = httpResponse.Result)
+                    {
+                        //Status Code
+                        HttpStatusCode httpStatusCode = httpResponseMessage.StatusCode;
+
+                        //Content
+                        HttpContent httpContent = httpResponseMessage.Content;
+                        Task<string> responseData = httpContent.ReadAsStringAsync();
+                        string data = responseData.Result;
+
+                        RestResponse restResponse = new((int)httpStatusCode, responseData.Result);
+
+                        Pokemon pokemon = JsonConvert.DeserializeObject<Pokemon>(restResponse.ResponseData)!;
+
+                        Console.WriteLine(pokemon.ToString());
                     }
                 }
             }

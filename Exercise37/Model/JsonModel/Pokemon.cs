@@ -1,15 +1,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Exercise37.Model.JsonModel
 {
     public class Pokemon
     {
-        private int Count { get; set; }
-        private string? Next { get; set; }
-        private object? Previous { get; set; }
-        public List<Result>? Results { get; set; }
+        public int count { get; set; }
+        public string? next { get; set; }
+        public object? previous { get; set; }
+        //public List<Result>? results { get; set; }
     }
 }
