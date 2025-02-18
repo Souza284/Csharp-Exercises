@@ -185,7 +185,7 @@ namespace Exercise37.GetEndPoint
                         //Step 3
                         var pokemon = (Root)xmlSerializer.Deserialize(textReader)!;
 
-                        Console.WriteLine(pokemon.ToString());
+                        Console.WriteLine(pokemon.Count);
                     }
                 }
             }
