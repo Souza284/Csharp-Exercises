@@ -145,7 +145,6 @@ namespace Exercise37.GetEndPoint
 
                         Pokemon pokemon = JsonConvert.DeserializeObject<Pokemon>(restResponse.ResponseData)!;
 
-                        Console.WriteLine(pokemon.ToString());
                     }
                 }
             }
