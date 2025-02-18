@@ -4,8 +4,10 @@ using System.Linq;
 using System.Net;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 using Exercise37.Model;
 using Exercise37.Model.JsonModel;
+using Exercise37.Model.XmlModel;
 using Newtonsoft.Json;
 
 namespace Exercise37.GetEndPoint
@@ -145,6 +147,45 @@ namespace Exercise37.GetEndPoint
 
                         Pokemon pokemon = JsonConvert.DeserializeObject<Pokemon>(restResponse.ResponseData)!;
 
+                    }
+                }
+            }
+        }
+
+        public static void TestDeserilizationXmlResponse()
+        {
+            using(HttpClient httpClient = new())
+            {
+                using(HttpRequestMessage httpRequestMessage = new())
+                {
+                    httpRequestMessage.RequestUri = new Uri(getUrl);
+                    httpRequestMessage.Method = HttpMethod.Get;
+                    httpRequestMessage.Headers.Add("Accept02", "application/xml");
+
+                    Task<HttpResponseMessage> responseMessage = httpClient.SendAsync(httpRequestMessage);
+
+                    using(HttpResponseMessage httpResponseMessage = responseMessage.Result)
+                    {
+                        //Status
+                        HttpStatusCode httpStatusCode = httpResponseMessage.StatusCode;
+
+                        //Content
+                        HttpContent httpContent = httpResponseMessage.Content;
+                        Task<string> responseData = httpContent.ReadAsStringAsync();
+                        string data = responseData.Result;
+
+                        RestResponse restResponse = new((int)httpStatusCode, data);
+
+                        //Step 1
+                        XmlSerializer xmlSerializer = new(typeof(Root));
+
+                        //Step 2
+                        TextReader textReader = new StringReader(restResponse.ResponseData);
+
+                        //Step 3
+                        var pokemon = (Root)xmlSerializer.Deserialize(textReader)!;
+
+                        Console.WriteLine(pokemon.ToString());
                     }
                 }
             }
