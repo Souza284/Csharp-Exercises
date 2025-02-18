@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using Exercise37.Model;
 
 namespace Exercise37.GetEndPoint
 {
@@ -108,6 +109,9 @@ namespace Exercise37.GetEndPoint
                         HttpContent httpContent = httpResponseMessage1.Content;
                         Task<string> responseData = httpContent.ReadAsStringAsync();
                         string data = responseData.Result;
+
+                        RestResponse restResponse = new((int)httpStatusCode, data);
+                        Console.WriteLine(restResponse.ToString());
                     }
                 }
             }
