@@ -91,13 +91,24 @@ namespace Exercise37.GetEndPoint
 
         public static void TestUsingStatement()
         {
-            using(HttpClient httpClient = new())
+            using (HttpClient httpClient = new())
             {
-                using(HttpRequestMessage httpRequestMessage = new())
+                using (HttpRequestMessage httpRequestMessage = new())
                 {
                     httpRequestMessage.RequestUri = new Uri(getUrl);
                     httpRequestMessage.Method = HttpMethod.Get;
                     httpRequestMessage.Headers.Add("Accept", "application/json");
+
+                    Task<HttpResponseMessage> httpResponseMessage = httpClient.SendAsync(httpRequestMessage);
+
+                    using (HttpResponseMessage httpResponseMessage1 = httpResponseMessage.Result)
+                    {
+                        HttpStatusCode httpStatusCode = httpResponseMessage1.StatusCode;
+
+                        HttpContent httpContent = httpResponseMessage1.Content;
+                        Task<string> responseData = httpContent.ReadAsStringAsync();
+                        string data = responseData.Result;
+                    }
                 }
             }
         }
