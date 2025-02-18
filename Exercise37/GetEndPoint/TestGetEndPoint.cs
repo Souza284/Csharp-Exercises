@@ -15,6 +15,8 @@ namespace Exercise37.GetEndPoint
     public class TestGetEndPoint
     {
         private static string getUrl = "https://pokeapi.co/api/v2/pokemon/";
+        private static string secureGetUrl = "https://jsonplaceholder.typicode.com";
+        //private static string secureGetUrl = "https://localhost:8080/laptop-bag/webapi/secure/all";
         public static void TestGetAllEndPoint()
         {
             //Step 1: Create the HTTP Client instance(object)
@@ -189,6 +191,11 @@ namespace Exercise37.GetEndPoint
                     }
                 }
             }
+        }
+
+        public static void TestSecureGetRequest()
+        {
+
         }
     }
 }
