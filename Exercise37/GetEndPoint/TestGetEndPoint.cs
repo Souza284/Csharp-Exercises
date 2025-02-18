@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
 namespace Exercise37.GetEndPoint
@@ -25,7 +26,7 @@ namespace Exercise37.GetEndPoint
         {
             //Step 1: Create the HTTP Client instance(object)
             HttpClient httpClient = new();
-            
+
             //Step 2 & 3: Create the request and execute it
             Uri getUri = new(getUrl);
             Task<HttpResponseMessage> httpResponse = httpClient.GetAsync(getUri);
@@ -41,6 +42,26 @@ namespace Exercise37.GetEndPoint
             Task<string> responseData = httpContent.ReadAsStringAsync();
             string data = responseData.Result;
             Console.WriteLine(data);
+
+            httpClient.Dispose();
+        }
+
+        public static void TestGetAllEndPointInJsonFormat()
+        {
+            HttpClient httpClient = new();
+
+            HttpRequestHeaders httpRequestHeader = httpClient.DefaultRequestHeaders;
+            httpRequestHeader.Add("Accept", "application/json");
+            //httpRequestHeader.Accept.Add()
+
+            Task<HttpResponseMessage> httpResponse = httpClient.GetAsync(getUrl);
+            HttpResponseMessage httpResponseMessage = httpResponse.Result;
+
+            HttpStatusCode httpStatusCode = httpResponseMessage.StatusCode;
+
+            HttpContent httpContent = httpResponseMessage.Content;
+            Task<string> responseData = httpContent.ReadAsStringAsync();
+            string data = responseData.Result;
 
             httpClient.Dispose();
         }
